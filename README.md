@@ -1,5 +1,5 @@
-# Bloxd Texture Packs
-A repository containing texture packs for bloxd.io. Bellow you will find instructions on how to create your own custom texture pack.
+# Pero-blox Texture Packs
+A repository containing texture packs for Pero-blox, a fork of Bloxd.io. Below you will find instructions on how to create your own custom texture pack.
 
 ## Updating the JSON encodings
 Each texture pack folder has a matching JSON encoding in `_json/` (with assets base64 encoded) that the game fetches. After changing the files in a pack folder, regenerate its JSON with:
@@ -64,11 +64,10 @@ space_lightblue
 space_red
 ```
 
-All games on bloxd currently only use the `default` skybox, BloxdHop is the only game that makes use of the other ones.
+All games on Pero-blox currently only use the `default` skybox. Other games may make use of additional skyboxes.
 
 ### Css
-You can insert custom css styling into bloxd by adding css files in the `css` folder. These css files can contain class 
-styles, e.g.:
+You can insert custom CSS styling into Pero-blox by adding CSS files in the `css` folder. These CSS files can contain class styles, e.g.:
 ```
 .WholeAppWrapper {
 	color: red;
